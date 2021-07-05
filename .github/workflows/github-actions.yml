@@ -4,7 +4,7 @@ name: Java CI
 on:
   push:
   schedule:
-      - cron: '0 0 * * *' # Once per day at midnight
+      - cron: '0 22 * * *' # Once per day at midnight (UTC)
     
 
 jobs:
